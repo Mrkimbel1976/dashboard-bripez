@@ -10,7 +10,7 @@ st.write("Visualiza y actualiza el estado de los pedidos en cada área del proce
 archivo_excel = "produccion_bripez.xlsx"
 
 try:
-    df = pd.read_excel(archivo_excel)
+    df = pd.read_excel("plantilla_bripez_corregida.xlsx")
 
     # Calcular progreso
     columnas_areas = ["Corte", "Confección", "Bordado", "Control de Calidad", "Empaque"]
